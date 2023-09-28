@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Echange Rate Calculator</title>
+  </head>
+  <body>
+    <img src="./money.png" class="money-img" />
+    <h1>Exchange Rate Calculator</h1>
+    <p>Choose the currency and the amounts to the exchange rate</p>
+
+    <div class="container">
+      <!-- currency onn -->
+
+      <div class="currency">
+        <select name="" id="currency-one">
+          <option value="ADE">ADE</option>
+          <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="BNG">BNG</option>
+          <option value="BRL">BRL</option>
+          <option value="BDS">BDS</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CLP">CLP</option>
+          <option value="CNY">CNY</option>
+          <option value="COP">COP</option>
+          <option value="CZK">CZK</option>
+          <option value="DDK">DDK</option>
+          <option value="DOP">DOP</option>
+          <option value="DOP">DOP</option>
+          <option value="EGP">EGP</option>
+          <option value="EUR">EUR</option>
+          <option value="SGN">SGN</option>
+          <option value="CAD">CAD</option>
+          <option value="MKT">MKT</option>
+          <option value="THB">THB</option>
+          <option value="TWD">TWD</option>
+          <option value="UAH">UAH</option>
+          <option value="USD" selected>USD</option>
+          <option value="UYU">UYU</option>
+          <option value="ZAR">ZAR</option>
+        </select>
+        <input type="number" id="amount-one" placeholder="0" value="1" />
+      </div>
+
+      <!-- currency end -->
+
+      <!--swap button  -->
+
+      <div class="swap-rate-container">
+        <button class="btn" id="rate">Swap</button>
+        <div class="rate" id="rate"></div>
+      </div>
+
+      <!-- swap button end -->
+
+      <!--  currency-2-->
+
+      <div class="currency">
+        <select name="" id="currency-two">
+          <option value="ADE">ADE</option>
+          <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="BNG">BNG</option>
+          <option value="BRL">BRL</option>
+          <option value="BDS">BDS</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CLP">CLP</option>
+          <option value="CNY">CNY</option>
+          <option value="COP">COP</option>
+          <option value="CZK">CZK</option>
+          <option value="DDK">DDK</option>
+          <option value="DOP">DOP</option>
+          <option value="DOP">DOP</option>
+          <option value="EGP">EGP</option>
+          <option value="EUR" selected>EUR</option>
+          <option value="SGN">SGN</option>
+          <option value="CAD">CAD</option>
+          <option value="MKT">MKT</option>
+          <option value="THB">THB</option>
+          <option value="TWD">TWD</option>
+          <option value="UAH">UAH</option>
+          <option value="USD">USD</option>
+          <option value="UYU">UYU</option>
+          <option value="ZAR">ZAR</option>
+        </select>
+        <input type="number" id="amount-two" placeholder="0" />
+      </div>
+
+      <!--  currency-2 end-->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
